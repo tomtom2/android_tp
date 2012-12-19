@@ -46,6 +46,7 @@
         </activity>
         <activity android:name="com.example.andprojdefault.LivreActivity"></activity>
         <activity android:name="com.example.andprojdefault.MyMapActivity"></activity>
+        <activity android:name="FinderActivity"></activity>
     </application>
 
 </manifest>
