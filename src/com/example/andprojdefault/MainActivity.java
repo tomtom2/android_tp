@@ -18,6 +18,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	private Button button2 = null;
 	private Button buttonLivres = null;
 	private Button buttonMap = null;
+	private Button buttonApp = null;
 	private EditText monTextField = null;
 	private String message = null;
 	Intent monIntent = null;
@@ -38,6 +39,9 @@ public class MainActivity extends Activity implements OnClickListener{
 		
 		button2 = (Button) findViewById(R.id.button2);
 		button2.setOnClickListener(this);
+		
+		buttonApp = (Button) findViewById(R.id.buttonapp);
+		buttonApp.setOnClickListener(this);
 		
 		buttonLivres = (Button) findViewById(R.id.buttonLivres);
 		buttonLivres.setOnClickListener(this);
@@ -89,6 +93,10 @@ public class MainActivity extends Activity implements OnClickListener{
 		else if (v == buttonMap){
 			Log.i(TAG, "go to bibliotheque !");
 			monIntent = new Intent(this, MyMapActivity.class);
+			startActivity(monIntent);
+		}
+		else if (v == buttonApp){
+			monIntent = new Intent(this, FinderActivity.class);
 			startActivity(monIntent);
 		}
 	}

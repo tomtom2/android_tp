@@ -18,33 +18,35 @@ public final class R {
         public static final int button1=0x7f070004;
         public static final int button2=0x7f07000a;
         public static final int buttonLivres=0x7f07000c;
+        public static final int buttonapp=0x7f07000e;
         public static final int buttonmap=0x7f07000d;
-        public static final int description=0x7f070010;
+        public static final int description=0x7f070011;
         public static final int editText1=0x7f070008;
         public static final int editText2=0x7f07000b;
         public static final int imageView1=0x7f070007;
         public static final int imageView2=0x7f070009;
-        public static final int img=0x7f07000e;
+        public static final int img=0x7f07000f;
         public static final int linearLayout1=0x7f070005;
         public static final int linearLayout2=0x7f070006;
-        public static final int map_view=0x7f070012;
-        public static final int menu_settings=0x7f070013;
-        public static final int myListView=0x7f070011;
+        public static final int map_view=0x7f070013;
+        public static final int menu_settings=0x7f070014;
+        public static final int myListView=0x7f070012;
         public static final int tab1=0x7f070000;
         public static final int tab2=0x7f070002;
         public static final int tab3=0x7f070003;
-        public static final int title=0x7f07000f;
+        public static final int title=0x7f070010;
     }
     public static final class layout {
         public static final int activity_broadcast=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_result=0x7f030002;
         public static final int default_layout=0x7f030003;
-        public static final int layoutitem=0x7f030004;
-        public static final int list_item=0x7f030005;
-        public static final int listview_layout=0x7f030006;
-        public static final int map_layout=0x7f030007;
-        public static final int second_activity_main=0x7f030008;
+        public static final int finder_layout=0x7f030004;
+        public static final int layoutitem=0x7f030005;
+        public static final int list_item=0x7f030006;
+        public static final int listview_layout=0x7f030007;
+        public static final int map_layout=0x7f030008;
+        public static final int second_activity_main=0x7f030009;
     }
     public static final class menu {
         public static final int activity_broadcast=0x7f060000;
